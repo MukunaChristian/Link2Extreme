@@ -1,0 +1,474 @@
+body {
+  background: #f3f0f0;
+  overflow-x: hidden;
+}
+
+#Unpurchased {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3em;
+}
+#Unpurchased .bot-card_flex {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+#Unpurchased .react-pdf-viewer .rpv-toolbar {
+  display: none;
+}
+#Unpurchased .parent1 {
+  display: grid;
+  border-radius: 1em;
+  gap: 1.5rem;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  padding: 1em;
+  background: white;
+  max-width: 86em;
+  min-width: 22.5em;
+}
+#Unpurchased .flex-date {
+  gap: 0.5em;
+  display: flex;
+  align-content: center;
+}
+#Unpurchased .flex-date img {
+  width: 1em;
+  height: 1em;
+}
+#Unpurchased .item2 {
+  grid-column: span 2;
+}
+#Unpurchased .item3 {
+  grid-column: 2/6;
+}
+#Unpurchased .item4 {
+  grid-column: 6/12;
+}
+#Unpurchased .image5 {
+  background-color: gray;
+  width: 15%;
+  min-width: 14rem;
+  height: auto;
+  aspect-ratio: 9/9;
+  border-radius: 8px;
+  object-fit: cover;
+}
+#Unpurchased .name-flex2 {
+  display: flex;
+  gap: 2em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#Unpurchased .card-text {
+  background-color: #f1faff;
+  border-radius: 5px;
+  padding: 0 1em;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+#Unpurchased .flex-button {
+  position: relative;
+  display: flex;
+  gap: 1em;
+  left: 5em;
+  bottom: 5em;
+}
+#Unpurchased .name-flex-home {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+#Unpurchased .card-text p {
+  font-size: 1rem;
+  margin-top: 1.3em;
+  color: red;
+}
+#Unpurchased .name-flex h1 {
+  font-size: 1.4rem;
+}
+#Unpurchased .name-flex h1:hover {
+  opacity: 0.75;
+  color: red;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+#Unpurchased .name-flex h2 {
+  font-size: 0.9rem;
+  color: gray;
+}
+#Unpurchased .name-flex h2:hover {
+  opacity: 0.75;
+  color: red;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+#Unpurchased .btn {
+  width: fit-content;
+  height: fit-content;
+  min-height: 3.9em;
+  border-radius: 6px;
+  color: black;
+  background: #f1faff;
+  font-weight: 500;
+  transition: background-color 0.3s, opacity 0.3s;
+  margin-top: 2.3em;
+  min-width: 10em;
+}
+#Unpurchased .btn:hover {
+  opacity: 60%;
+  color: red;
+}
+#Unpurchased .btn-flex {
+  display: flex;
+  gap: 3em;
+  margin-top: 5.5em;
+}
+#Unpurchased .card2-home {
+  padding: 1em;
+  border-radius: 0.5em;
+  background: white;
+  margin: auto;
+  min-width: 22em;
+  max-width: 25em;
+  min-height: 40em;
+}
+#Unpurchased .card2-home p {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  text-wrap: pretty;
+}
+#Unpurchased .card2-home h3 {
+  font-size: 1.1rem;
+}
+#Unpurchased .card2-home h3:hover {
+  opacity: 0.75;
+  color: red;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+#Unpurchased .card2-home h4 {
+  margin-bottom: 1.1em;
+}
+#Unpurchased .card2-home h4 {
+  font-size: 0.9rem;
+  color: gray;
+}
+#Unpurchased .card3-home {
+  position: relative;
+  padding: 1em;
+  border-radius: 0.5em;
+  background: white;
+  max-height: 40em;
+  min-width: 22em;
+  max-width: 60em;
+  width: 95em;
+}
+#Unpurchased .card3-home p {
+  font-size: 1rem;
+  color: #999; /* Message text color */
+  gap: 1rem;
+  text-align: center;
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 12px;
+  background-color: #fafafa;
+}
+ .video-container {
+  position: relative;
+  max-width: 80%;
+  margin: auto;
+}
+#Unpurchased .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Unpurchased .overlay-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+#Unpurchased .text {
+  padding: 1em;
+  margin-top: 2em;
+}
+#Unpurchased .card-display-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+#Unpurchased .flex1 {
+  display: flex;
+  flex-direction: column;
+}
+#Unpurchased .card1-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+#Unpurchased .card3-column h3 {
+  font-size: 1.2em;
+}
+#Unpurchased .card3-column h4 {
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 2em;
+}
+#Unpurchased .video {
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  width: 100%;
+  margin-bottom: -0.5em;
+}
+#Unpurchased .certificate-home {
+  position: relative;
+  padding: 2em;
+  border-radius: 0.5em;
+  background: white;
+  margin-top: 1em;
+  height: 10%;
+  min-width: 5%;
+  width: 86em;
+}
+#Unpurchased .text-certificate-home {
+  display: flex;
+  justify-content: space-between;
+}
+#Unpurchased .text-certificate-home div p {
+  color: gray;
+}
+#Unpurchased .btn-certificate-home {
+  width: 6em;
+  height: 2em;
+  border-radius: 6px;
+  background: #04a0f7;
+  color: #ffffff;
+  border: #f1faff;
+  cursor: pointer;
+}
+#Unpurchased .btn-certificate-home :hover {
+  opacity: 0.3;
+  animation: animation-scrolltop 0.4s ease-out 1;
+}
+#Unpurchased .pdf-container {
+  width: 100%;
+  height: 30rem;
+  overflow: scroll;
+}
+#Unpurchased .image-home {
+  padding: 1em;
+  border-radius: 0.5em;
+  background: white;
+  max-width: 86.1em;
+  width: 90em;
+  display: flex;
+  flex-direction: column;
+}
+#Unpurchased .image-home p {
+  font-size: 1rem;
+  color: #999; /* Message text color */
+  margin-top: 10px;
+  text-align: center;
+}
+#Unpurchased .text-image-home {
+  display: flex;
+  justify-content: space-between;
+}
+#Unpurchased .text-image-home div h2 {
+  position: relative;
+  color: gray;
+  font-size: 0.9rem;
+}
+#Unpurchased .text-image-home h1 {
+  font-size: 1.3rem;
+}
+#Unpurchased .btn-image-home {
+  width: 130px;
+  height: 38px;
+  border-radius: 6px;
+  background: #04a0f7;
+  color: #ffffff;
+  font-size: 20px;
+  border: #f1faff;
+  cursor: pointer;
+}
+#Unpurchased .gal-img-home {
+  gap: 1rem;
+  position: relative;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Adjust minmax values as needed */
+  padding: 0.5rem;
+  border-radius: 12px;
+  background-color: #fafafa;
+  justify-content: center;
+  cursor: pointer;
+  max-height: fit-content;
+  margin: auto ;
+}
+#Unpurchased .btn-home3 {
+  width: 130px;
+  height: 38px;
+  border-radius: 6px;
+  background: black;
+  color: #ffffff;
+  font-size: 20px;
+  border: #f1faff;
+  transition: 0.8s ease;
+}
+
+#Unpurchased .topbtn-home {
+  position: fixed;
+  cursor: pointer;
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  bottom: 62px;
+  right: 1.1em;
+  background-color: black;
+  box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.075);
+  border-radius: 0.475rem;
+  border: none;
+  transition: 0.8s;
+}
+#Unpurchased .topbtn-home:hover {
+  opacity: 0.75;
+  animation: animation-scrolltop 0.4s ease-out 1;
+  display: flex;
+  background: red;
+}
+#Unpurchased .gal-img img {
+  aspect-ratio: 15/12;
+  width: 100%; /* Ensure the image takes up the entire width of its container */
+  height: auto; /* Allow the image to adjust its height proportionally to its width */
+  object-fit: cover; /* Ensure the image covers the entire container */
+  border-radius: 0.4em; /* Adds rounded corners to the image */
+  background-color: gray; /* Background color in case the image aspect ratio doesn't match the container */
+}
+#Unpurchased .image1-home {
+  border: solid 1px #e7e9f0;
+  padding: 0.1em;
+  width: 100%;
+  height: auto; /* Ensures the image adjusts its height proportionally to its width */
+  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  object-fit: cover; /* Ensure the image covers the entire container */
+  background-color: white; /* Background color in case the image aspect ratio doesn't match the container */
+  border-radius: 0.4em; /* Adds rounded corners to the image */
+}
+@media screen and (max-width: 868px) {
+  #Unpurchased .parent1 {
+    grid-template-columns: auto; /* Switch to auto layout */
+    grid-template-rows: auto; /* Allow rows to adjust based on content */
+    height: auto; /* Remove fixed height */
+    width: calc(100vw - 3rem); /* Adjust the width */
+  }
+  #Unpurchased .item1 {
+    grid-column: span 1; /* Adjust column span */
+    grid-row: 1; /* Position it on the first row */
+    margin: 0 auto;
+  }
+  #Unpurchased .item2 {
+    grid-column: 1/6; /* Adjust column span */
+    grid-row: 2; /* Position it on the second row */
+  }
+  #Unpurchased .item3,
+  #Unpurchased .item4 {
+    grid-column: span 6; /* Adjust column span to cover all columns */
+    justify-self: center; /* Center items horizontally */
+  }
+}
+@media (max-width: 800px) {
+  #Unpurchased .item1 {
+    grid-column: 1/7;
+  }
+  #Unpurchased .item1 .image5 {
+    min-width: 25em; /* Ensure image covers the entire width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 21.5rem; /* Set maximum width to match card-text2 */
+    border-radius: 0.475rem; /* Match border radius */
+  }
+}
+
+@media (max-width: 1500px) {
+  .card2-home {
+    min-width: 100% !important;
+    min-height: fit-content !important;
+  }
+  .card3-home {
+    max-width: 100% !important;
+    max-height: 80% !important;
+  }
+  .card1-home {
+    width: calc(100vw - 3em) !important;
+    height: 29em !important;
+  }
+  .video {
+    max-height: 40%;
+  }
+  .card-text {
+    margin-top: 0.1em !important;
+    min-width: 2em !important;
+    border: red 2px;
+  }
+  .btn {
+    margin-top: 1em !important;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .card1-home .card-display-flex {
+    flex-direction: column;
+    position: relative;
+    margin-right: auto;
+  }
+  .card1-home .btn-flex {
+    flex-direction: column;
+  }
+  .card1-home .image-accessory {
+    top: 11rem;
+    left: 15%;
+  }
+  .card1-home .flex-button {
+    flex-direction: column;
+    position: relative;
+    top: 0.1em;
+    left: 0.1em !important;
+  }
+}
+@media only screen and (max-width: 1500px) and (max-width: 600px) {
+  .gal-img-home {
+    width: 100%;
+    padding: 0.2rem; /* Adjust padding as needed */
+  }
+}
+@media only screen and (max-width: 1500px) and (max-width: 400px) {
+  .gal-img-home {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust minmax values as needed */
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 320px) {
+  .image1 {
+    grid-template-columns: auto;
+  }
+  .image-home {
+    height: fit-content;
+  }
+  .image1-home {
+    margin: auto;
+    max-width: 20em !important;
+    max-height: 20em;
+  }
+}

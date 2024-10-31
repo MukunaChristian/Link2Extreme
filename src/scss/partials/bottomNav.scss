@@ -1,0 +1,50 @@
+.bottom-nav {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+
+}
+
+.botttom-image-nav {
+  width: 8em;
+  height: 3em;
+  margin-left: 2em;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+.botttom-image-nav span {
+  margin-right: 0.5em;
+  color: #a1a5b7;
+}
+
+.botttom-image-nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 0.5em;
+}
+
+.botttom-image-nav a:hover {
+  opacity: 0.6;
+  color: #ff6d6d;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    height: auto; /* Adjust height to auto for smaller screens */
+  }
+
+  .botttom-image-nav {
+    margin: 0 auto; /* Center the navigation items */
+    padding: -10em; /* Add some padding */
+    justify-content: center; /* Center the content horizontally */
+  }
+
+  .botttom-image-nav a {
+    margin-left: 1em; /* Increase margin for better spacing */
+  }
+}

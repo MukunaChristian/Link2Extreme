@@ -1,0 +1,88 @@
+#imageModel-puchased .image-modal-purchased {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  margin: auto;
+}
+#imageModel-puchased .modal-content-purchased {
+  aspect-ratio: 9/9;
+  max-width: 50%;
+  margin-top: 6em;
+  max-height: 95%;
+  align-items: center;
+}
+#imageModel-puchased .modal-content-purchased img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+#imageModel-puchased .first-img {
+  display: none;
+}
+#imageModel-puchased .last-img {
+  display: none;
+}
+#imageModel-puchased .last-img:hover {
+  opacity: 0.3;
+}
+#imageModel-puchased .prev-btn,
+#imageModel-puchased .next-btn {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index: 1000;
+  color: white;
+  font-size: 1.5em;
+  padding: 0.9em 1em;
+  border-radius: 5px;
+  padding-bottom: 0.8em;
+  align-items: center;
+}
+#imageModel-puchased .prev-btn img,
+#imageModel-puchased .next-btn img {
+  display: flex;
+}
+#imageModel-puchased .prev-btn {
+  left: 1em;
+}
+#imageModel-puchased .next-btn {
+  right: 1em;
+}
+#imageModel-puchased .prev-btn:hover,
+#imageModel-puchased .next-btn:hover {
+  opacity: 0.8;
+}
+#imageModel-puchased .download-btn {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  background: none;
+}
+#imageModel-puchased .download-btn:hover {
+  opacity: 75%;
+}
+@media (max-width: 768px) {
+  #imageModel-puchased .prev-btn,
+  #imageModel-puchased .next-btn {
+    font-size: 1em;
+    padding: 0.3em 0.5em;
+  }
+}

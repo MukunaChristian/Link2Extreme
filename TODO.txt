@@ -1,0 +1,12 @@
+This is new requirements and actions to perform in the code. 
+
+
+1. Add the API end Point using Axios: https://staging.link2extreme.com:5002/1cfc6e232e64972257e4/api
+
+
+2. Test Images with following endpoints:
+    Gallary Thumbnails: https://staging.link2extreme.com:5002/resize/1-20240104-willie/willieprinsloo_dark_comic_heros_2b6b6c8f-4812-4c9b-aa80-607bc54b8d6c.png
+    TODO: Create a User with +20 Imges and create a callback in the Gallary to show the Images
+3. Add a Full image view when clicking on a Image: https://staging.link2extreme.com:5002/static/1-20240104-willie/images/willieprinsloo_black_spaderman_and_other_dark_heros_fa8d7f18-e15a-4c16-81d3-9c69e6f79daf.png
+
+Please NOTE!!!: This is for testing only so that we can work out what adjustments we will need to make in the API to make a a Fluid UX,
